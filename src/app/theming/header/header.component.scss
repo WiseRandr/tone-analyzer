@@ -1,0 +1,24 @@
+nav#menu-navbar {
+  background-color: var(--green) !important;
+  box-shadow: 0 1px 5px var(--grey);
+  padding-bottom: 0;
+
+  #navbarCollapse {
+    align-self: flex-end;
+
+    li.nav-item {
+      &.active {
+        a.nav-link {
+          color: var(--black);
+          border-bottom: 3px solid var(--black);
+        }
+      }
+
+      a.nav-link {
+        color: var(--light);
+        text-shadow: 2px 2px 7px var(--white);
+        margin: 0 8px;
+      }
+    }
+  }
+}

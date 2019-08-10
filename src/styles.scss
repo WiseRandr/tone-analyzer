@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Color palette variables
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #232323;
+  --green: #009688;
+  --green-lighter: #cddc39;
+  --grey: #607d8b;
+  --grey-light: #a79f9f;
+  --grey-lighter: #ececec;
+  --orange: #ff9800;
+  --violet: #3f51b5;
+  --violet-light: #673ab7;
+  --violet-lighter: #9c27b0;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url(assets/fonts/quicksand/Quicksand-Regular.otf);
+}
+
+@font-face {
+  font-family: "Quicksand bold";
+  src: url(assets/fonts/quicksand/Quicksand-Bold.otf);
+}
+
+.font-bold {
+  font-family: "Quicksand bold" !important;
+}
+
+body {
+  font-family: "Quicksand" !important;
+  overflow-x: hidden;
+}
