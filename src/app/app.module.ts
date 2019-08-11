@@ -6,6 +6,7 @@ import { HeaderComponent } from './theming/header/header.component';
 import { LogoComponent } from './utils/logo/logo.component';
 import { HomeComponent } from './scenes/home/home.component';
 import { SampleUsecaseComponent } from './utils/sample-usecase/sample-usecase.component';
+import { FooterComponent } from './theming/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SampleUsecaseComponent } from './utils/sample-usecase/sample-usecase.co
     HeaderComponent,
     LogoComponent,
     HomeComponent,
-    SampleUsecaseComponent
+    SampleUsecaseComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

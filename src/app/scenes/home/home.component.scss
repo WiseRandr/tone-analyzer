@@ -49,4 +49,25 @@
 .home-content-container {
   position: relative;
   top: 53vh;
+
+  .separator {
+    background-color: var(--orange);
+    margin: 28px 0;
+    color: var(--violet);
+    padding: 23px;
+    font-size: 25px;
+  }
+
+  .home-bottom-card-container {
+    width: 90%;
+    margin: auto;
+
+    .card {
+      height: 100%;
+
+      .card-context {
+        color: var(--green);
+      }
+    }
+  }
 }
