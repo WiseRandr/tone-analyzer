@@ -10,25 +10,57 @@
 .sample-usecase-title {
   font-size: 20px;
   color: #8753b3;
+  position: relative;
+  background-color: var(--orange);
+  width: fit-content;
+  left: -3.6%;
+  padding: 5px 5px 5px 55px;
+  margin-bottom: 2%;
+  box-shadow: 0 0 2px #9e9e9e;
 }
 
-.sample-usecase-form {
+.choose-text {
+  margin-top: 4%;
+}
+
+.sample-usecase-info a.learn-more {
+  &:hover {
+    font-size: initial;
+  }
+  color: #015277;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.sample-usecase-choice {
   display: flex;
   flex-direction: row;
-  background-color: #3c393a;
-  padding: 10px 30px;
-  box-shadow: 0 0 4px var(--dark);
-  margin-top: 2%;
+  flex-wrap: wrap;
 }
 
 .sample-usecase-form-self {
-  flex-grow: 1;
-  /* background-color: #ec5550; */
+  padding: 5px;
+  background-color: #3c393a;
+  box-shadow: 0 0 4px #3c393a;
+  margin-top: 2%;
 }
 
-.sample-usecase-choice-self {
-  background-color: #f1a00b;
-  margin: 5px 0;
-  text-align: right;
-  padding: 4px;
+textarea#sample-usecase-textarea {
+  resize: unset;
+  width: 100%;
+  border-top: 6px solid #f4961e;
+  box-shadow: 1px 0px 3px #a0979d;
+}
+
+.selected-use-case {
+  width: fit-content;
+  background-color: var(--orange);
+  padding: 2px 10px;
+  box-shadow: 1px 0 3px #a0979d;
+}
+
+.submit-sample-usecase {
+  margin: auto;
+  display: block;
 }
