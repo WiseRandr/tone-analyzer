@@ -25,11 +25,47 @@
   src: url(assets/fonts/quicksand/Quicksand-Bold.otf);
 }
 
-.font-bold {
-  font-family: "Quicksand bold" !important;
+@font-face {
+  font-family: "Quicksand light";
+  src: url(assets/fonts/quicksand/Quicksand-Light.otf);
+}
+
+@font-face {
+  font-family: "Quicksand italic";
+  src: url(assets/fonts/quicksand/Quicksand-Italic.otf);
 }
 
 body {
   font-family: "Quicksand" !important;
   overflow-x: hidden;
+
+  .font-bold {
+    font-family: "Quicksand bold" !important;
+  }
+
+  .font-light {
+    font-family: "Quicksand light" !important;
+  }
+
+  .font-italic {
+    font-family: "Quicksand italic" !important;
+  }
+
+  .custom-btn {
+    &.custom-round-btn {
+      padding: 3px 13px;
+      border-radius: 20px;
+    }
+
+    &.custom-green-btn {
+      background-color: var(--green);
+      color: var(--light);
+      box-shadow: 0 0 4px #6f6f6f;
+    }
+    cursor: pointer;
+    border: none;
+    padding: 4px 18px;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
 }
